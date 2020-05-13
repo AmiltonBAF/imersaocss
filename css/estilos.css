@@ -1,0 +1,52 @@
+body {
+    background-image: url('https://resize.hswstatic.com/w_907/gif/lion.jpg');
+    background-size: auto 100vh;
+//altura da imagem 1009(altura) auto(largura)
+    font-family: Arial;
+    height: 100vh;
+    //fixa a altura 
+    
+//escolhe fundo , podendo ser cor ou imagem
+//fonte do texto 
+   }
+  
+  .menu {
+  backgroud-color: white;
+    //fundo branco
+  }
+    .menu li {
+    list-style: none;
+//tira os pontos de lista
+      
+  }
+  .menu ul{
+    display: flex;
+    justify-content: space-between;
+//todo display vira colura
+//ajusta os espaços entre o menu
+  }
+   
+  a {
+    text-decoration: none;
+//tira o texto grifado 
+  }
+  
+  a:hover {
+    text-decoration: underline;
+//coloca o texto grifado ao passr o mouse
+  }
+  
+  .site-subtitle,
+  .site-title {
+    color: whitesmoke;
+    text-align:center;
+    //centralização do texto e cor
+    //podendo usar as duas linhas
+    }
+  
+  .site-subtitle{
+    font-style: italic;
+//foi selecionado um title e definido estilo 
+    
+  }
+  
